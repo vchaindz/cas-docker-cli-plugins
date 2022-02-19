@@ -5,6 +5,9 @@ These plugins integrate `cas` commands into `docker` CLI commands to simplify au
 **cas Docker CLI plugins** (cas) is a Docker client plugin allowing to authenticate (aka verify) and notarize (aka sign) Docker container images including SBOM (software bill of materials) for the [Community Attestation Service](https://cas.codenotary.com).  Requires to install the [cas binary](https://github.com/codenotary/cas/releases) and being cas logged in (cas login).
 Project is written entirely in Bash.
 
+[![](https://raw.githubusercontent.com/vchaindz/cas-docker-cli-plugins/main/casdocker.svg)](animation)
+
+
 ## Install
 
 Docker CLI plugins are found in `~/.docker/cli-plugins` and names like `docker-<command>`.
