@@ -14,7 +14,7 @@ You can fetch and install these as follows:
 ```bash
 mkdir -p ~/.docker/cli-plugins
 for cmd in docker-auth docker-authbom docker-notarize docker-notarizebom docker-untrust; do
-    curl https://raw.githubusercontent.com/vchaindz/cas-docker-cli-plugins/main/${cmd} \
+    curl https://raw.githubusercontent.com/vchaindz/cas-docker-cli-plugins/main/${cmd}.sh \
         -o ~/.docker/cli-plugins/${cmd} && \
         chmod +x ~/.docker/cli-plugins/${cmd}
 done
