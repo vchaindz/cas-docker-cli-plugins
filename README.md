@@ -1,4 +1,4 @@
-# Docker CLI plugins [`cas`](https://cas.codenotary.com)
+# Docker CLI plugins for [`cas`](https://cas.codenotary.com)
 Docker CLI plugins for [cas](cas.codenotary.com) attestation platform.
 These plugins integrate `cas` commands into `docker` CLI commands to simplify authentication and notarization.
 
