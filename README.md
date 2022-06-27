@@ -12,7 +12,7 @@ Project is written entirely in Bash.
 
 Docker CLI plugins are found in `~/.docker/cli-plugins` and names like `docker-<command>`.
 
-You can fetch and install these as follows:
+You can download and install these as follows:
 
 ```bash
 mkdir -p ~/.docker/cli-plugins
